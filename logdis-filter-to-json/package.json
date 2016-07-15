@@ -1,0 +1,27 @@
+{
+  "name": "logdis-filter-to-json",
+  "description": "Filter to JSON.parse incoming strings to objects.",
+  "version": "0.1.0",
+  "homepage": "http://logdis.io/",
+  "scripts": {
+    "test": "tape test.js 2> stderr.log && diff stderr.log expected-stderr.log"
+  },
+  "devDependencies": {
+    "tape": "^4.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/logdis/logdis-plugins.git"
+  },
+  "bugs": {
+    "url": "https://github.com/logdis/logdis-plugins/issues",
+    "email": "chilts@logdis.io"
+  },
+  "author": {
+    "name": "Andrew Chilton",
+    "email": "chilts@logdis.io",
+    "url": "http://chilts.org/"
+  },
+  "keywords": [ "logdis", "logdis-plugin", "logdis-filter", "logdis-filter-to-json" ],
+  "license": "ISC"
+}
