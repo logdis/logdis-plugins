@@ -2,7 +2,7 @@
 
 **This is an officially supported http://logdis.io/ plugin.**
 
-Prints each log message to `stdout` in JSON format, one log message per line.
+An output plugin which prints each log message to `stdout` in JSON format, one log message per line.
 
 ## Synopsis ##
 

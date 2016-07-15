@@ -1,6 +1,6 @@
 {
   "name": "logdis-output-stdout",
-  "description": "Output plugin to write to stdout. http://logdis.io/",
+  "description": "LogDis output plugin to write to stdout ⇒ http://logdis.io/",
   "version": "0.1.0",
   "homepage": "http://logdis.io/",
   "scripts": {

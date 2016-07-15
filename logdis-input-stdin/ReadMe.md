@@ -2,7 +2,7 @@
 
 **This is an officially supported http://logdis.io/ plugin.**
 
-Reads `stdin` and passes each line to the filters.
+An input plugin which reads `stdin` and passes each line to the filters.
 
 ## Synopsis ##
 

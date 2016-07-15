@@ -1,6 +1,8 @@
 # logdis-filter-ignore-blank-lines #
 
-Filter to ignore incoming lines from stdin, file or stream.
+**This is an officially supported http://logdis.io/ plugin.**
+
+A filter to ignore incoming lines from stdin, file or stream.
 
 This filter expects the incoming data to be strings, and passes those strings through unchanged if the string contains
 any data. If the string it empty (or it is undefined) then nothing will be passed through.
