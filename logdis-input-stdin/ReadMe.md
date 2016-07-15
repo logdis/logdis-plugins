@@ -1,22 +1,34 @@
 # logdis-input-stdin #
 
-Since this is an officially supported plugin, you may use either:
+**This is an officially supported http://logdis.io/ plugin.**
 
-* `npm install logdis` to get both `logdis-core` and `logdis-input-stdin` (via `logdis-plugins`)
-
-Or:
-
-* `npm install logdis-core` and `npm install logdis-input-stdin`
+Reads `stdin` and passes each line to the filters.
 
 ## Synopsis ##
 
-Using each package independently:
+Require `logdis-core` and whatever other filters and outputs you need:
 
 ```js
 var logdisCore = require('logdis-core')
 var inputStdin = require('logdis-input-stdin')
 
-logdisCore().input(inputStdin())
+var logdis = logdisCore()
+logdis.input(inputStdin())
+// filters ...
+// outputs ...
 ```
+
+## Author ##
+
+Andrew Chilton:
+
+* [Blog    : chilts.org](https://chilts.org/)
+* [Twitter : @andychilton](https://twitter.com/andychilton)
+* [GitHub  : @chilts](https://github.com/chilts)
+* [npm     L @chilts](https://www.npmjs.com/~chilts)
+
+## License ##
+
+ISC.
 
 (Ends)

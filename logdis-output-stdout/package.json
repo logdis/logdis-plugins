@@ -1,13 +1,10 @@
 {
-  "name": "logdis",
-  "description": "Input plugin to read from stdin.",
+  "name": "logdis-output-stdout",
+  "description": "Output plugin to write to stdout.",
   "version": "0.1.0",
   "homepage": "http://logdis.io/",
   "scripts": {
-    "test": "cat stdin.log | tape test.js"
-  },
-  "dependencies": {
-    "split": "^1.0.0"
+    "test": "rm -f out.log && tape test.js > out.log && diff out.log expected.log"
   },
   "devDependencies": {
     "tape": "^4.6.0"
@@ -25,6 +22,6 @@
     "email": "chilts@logdis.io",
     "url": "http://chilts.org/"
   },
-  "keywords": [ "logdis", "logdis-plugin", "logdis-input", "logdis-input-stdin" ],
+  "keywords": [ "logdis", "logdis-plugin", "logdis-output", "logdis-output-stdout" ],
   "license": "ISC"
 }
