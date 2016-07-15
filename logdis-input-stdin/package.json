@@ -1,6 +1,6 @@
 {
   "name": "logdis",
-  "description": "Input plugin to read from stdin.",
+  "description": "Input plugin to read from stdin. http://logdis.io/",
   "version": "0.1.0",
   "homepage": "http://logdis.io/",
   "scripts": {

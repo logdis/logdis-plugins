@@ -1,6 +1,6 @@
 {
   "name": "logdis-filter-to-json",
-  "description": "Filter to JSON.parse incoming strings to objects.",
+  "description": "Filter to JSON.parse incoming strings to objects. http://logdis.io/",
   "version": "0.1.0",
   "homepage": "http://logdis.io/",
   "scripts": {

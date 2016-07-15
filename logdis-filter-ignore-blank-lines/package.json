@@ -1,6 +1,6 @@
 {
   "name": "logdis-filter-ignore-blank-lines",
-  "description": "Filter to ignore blank lines in the incoming stream/file.",
+  "description": "Filter to ignore blank lines in the incoming stream/file. http://logdis.io/",
   "version": "0.1.0",
   "homepage": "http://logdis.io/",
   "scripts": {
